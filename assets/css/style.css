@@ -21,8 +21,17 @@ h1 {
     margin-bottom: 2rem;
 }
 
+h2 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 4.2rem;
+    font-weight: 400;
+}
+
 p {
-    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+
 }
 
 .container {
@@ -31,6 +40,9 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    max-width: 80rem;
+    margin: 0 auto;
 }
 
 /* buttons */
@@ -38,11 +50,23 @@ p {
 .btn {
     font-size: 2rem;
     padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
     width: 15rem;
     text-align: center;
-    border: 0.2rem solid #af4657;
+    border: 0.1rem solid #f3f8f3;
     text-decoration: none;
     color: #f3f8f3;
     background-color: #af4657;
-    border-radius: 13px;
+    border-radius: 8px;
+}
+
+#home-btns {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1rem #af4657;
 }
