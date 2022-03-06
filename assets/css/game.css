@@ -1,0 +1,41 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #211e24;
+    color: #b6bfcb;
+}
+
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 5rem;
+    color: #af4657;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 4.2rem;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    color: #af4657;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.3rem;
+    width: 100%;
+    border: 0.1rem solid #b6bfcb;
+    background-color: #f3f8f3;
+}
