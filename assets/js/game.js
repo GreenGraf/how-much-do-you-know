@@ -39,9 +39,10 @@ let questions = [
 //CONSTANTS
 
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 33
+const MAX_QUESTIONS = 3;
 
 startGame = () => {
+
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
@@ -63,8 +64,20 @@ getNewQuestion = () => {
     availableQuestions.splice(questionIndex, 1);
 
     acceptingAnswers = true;
+};
+
+choices.forEach(choice => {
+    choice.addEventListener('click', e => {
+        if(!acceptingAnswers) return;
+
+        acceptingAnswers = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset["number"];
+        getNewQuestion();
+    });
     
-}
+})
+
 
 
 startGame();
