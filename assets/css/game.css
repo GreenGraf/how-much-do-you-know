@@ -16,13 +16,14 @@ h1 {
     font-family: 'Major Mono Display', monospace;
     font-size: 5rem;
     color: #af4657;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 h2 {
     font-family:'Montserrat', sans-serif;
     font-size: 4.2rem;
     font-weight: 400;
+    margin-bottom: 1.8rem;
 }
 
 p {
@@ -30,12 +31,42 @@ p {
     font-size: 2rem;
     font-weight: 200;
     color: #af4657;
+    background-color: inherit;
 }
 
-.choice-container {
+.container {
+   
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    margin-bottom: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem; 
+    margin: 0 auto;
+
+} 
+
+.choice-container {
+    display: flex;  
+    margin-bottom: 0.7rem;
     width: 100%;
-    border: 0.1rem solid #b6bfcb;
+    border: 0.1rem solid #af4657;
     background-color: #f3f8f3;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1rem #f3f8f3;
+    transform: translateY(-0.2rem);
+    transition: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #af4657;
+    color: #f3f8f3;
+}
+
+.choice-text {
+    padding: 1.5rem;
 }
