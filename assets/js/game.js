@@ -58,6 +58,10 @@ startGame = () => {
 // populate choices and assign a number to them
 
 getNewQuestion = function () {
+    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        //go to the end page
+        return window.location.assign("/end.html");
+      }
     questionCounter++;
     questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
 
