@@ -34,6 +34,8 @@ p {
     background-color: inherit;
 }
 
+/* Styles for question and answer choices */
+
 .container {
    
     width: 100vw;
@@ -46,6 +48,10 @@ p {
     padding: 2rem;
 
 } 
+  
+  .justify-center {
+    justify-content: center;
+  }
 
 .choice-container {
     display: flex;  
@@ -81,4 +87,20 @@ p {
 
 .incorrect {
     background-color: #d37484
+}
+
+/*  HUD */ 
+
+#display {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-main-text{
+    text-align: center;
 }
