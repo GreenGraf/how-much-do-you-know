@@ -104,3 +104,17 @@ p {
 .hud-main-text{
     text-align: center;
 }
+
+#progress-bar {
+    width: 20rem;
+    height: 5rem;
+    border: 0.3rem solid #af4657;
+    margin-bottom: 2rem;
+}
+
+#progressBarFull {
+    height: 4.5rem;
+    background-color: #af4657;
+    width: 0%;
+    
+}
