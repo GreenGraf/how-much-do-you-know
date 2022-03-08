@@ -8,6 +8,8 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+// display hard-coded questions
+
 let questions = [
     {
         question: 'Inside which HTML element do we put the JavaScript??',
@@ -50,6 +52,8 @@ startGame = () => {
     getNewQuestion();
 }
 
+// populate choices and assign a number to them
+
 getNewQuestion = function () {
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
@@ -66,6 +70,8 @@ getNewQuestion = function () {
     acceptingAnswers = true;
 };
 
+// Check to see if answer is correct and move to next question
+
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return;
@@ -73,17 +79,16 @@ choices.forEach(choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-        
-        // const classToApply = 'incorrect';
-        //     if (selectedAnswer == currentQuestion.answer) {
-        //         classToApply = 'correct';
-        //     }
 
-        const classToApply = selectedAnswer === currentQuestion ? 'correct' : 'incorrect';    
-        
-        console.log(selectedAnswer == currentQuestion.answer);
+        const classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";    
+
+        selectedChoice.parentElement.classList.add(classToApply);
+
+        setTimeout( () => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 1000);    
     });
-    
 })
 
 

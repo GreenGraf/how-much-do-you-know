@@ -72,3 +72,13 @@ p {
     padding: 1.5rem;
     width: 100%;
 }
+
+/* Color for right or wrong answer */
+
+.correct {
+    background-color: #7dd191;
+}
+
+.incorrect {
+    background-color: #d37484
+}
