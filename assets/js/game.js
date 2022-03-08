@@ -50,13 +50,13 @@ startGame = () => {
     getNewQuestion();
 }
 
-getNewQuestion = () => {
+getNewQuestion = function () {
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
 
-    choices.forEach( choice => {
+    choices.forEach(choice => {
         const number = choice.dataset['number'];
         choice.innerText = currentQuestion['choice' + number];
     });
@@ -73,7 +73,15 @@ choices.forEach(choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-        getNewQuestion();
+        
+        // const classToApply = 'incorrect';
+        //     if (selectedAnswer == currentQuestion.answer) {
+        //         classToApply = 'correct';
+        //     }
+
+        const classToApply = selectedAnswer === currentQuestion ? 'correct' : 'incorrect';    
+        
+        console.log(selectedAnswer == currentQuestion.answer);
     });
     
 })
