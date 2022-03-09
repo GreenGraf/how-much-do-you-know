@@ -15,7 +15,7 @@ let availableQuestions = [];
 
 let questions = [];
 
-fetch("questions.json").then( res => { 
+fetch("https://quizapi.io/api/v1/questions?apiKey=9Si0Eb5bu9YIwFFSwLG3E4Fmo5pkvxSfmATADrph&limit=10&category=Linux&difficulty=easy").then( res => { 
     return res.json();
     })
     .then(loadedQuestions => {
@@ -25,14 +25,16 @@ fetch("questions.json").then( res => {
     
 })
 
+
 .catch(err => {
     console.error(err);
 });
 
+
 //CONSTANTS
 
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 10;
 
 startGame = () => {
 
@@ -62,7 +64,7 @@ getNewQuestion = function () {
     question.innerText = currentQuestion.question;
 
     choices.forEach(choice => {
-        const number = choice.dataset['number'];
+        const number = choice.dataset['value'];
         choice.innerText = currentQuestion['choice' + number];
     });
 
@@ -79,7 +81,7 @@ choices.forEach(choice => {
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset["number"];
+        const selectedAnswer = selectedChoice.dataset["value"];
 
         const classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";    
 
