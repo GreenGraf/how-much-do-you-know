@@ -46,6 +46,9 @@ This is an easy quiz designed to test the knowledge of newbie Linux users. Hopef
 #### What features are planned
 * Start page, with instructions.
 * Randomly generated questions from a quiz API.
+* Pregress bar.
+* Question counter.
+* Score counter.
 * Option to input the user's name at the end of the game so they can store their score locally.
 * A page for locally stored high scores.
 * Users should get instant feedback on choices and results without any confusion.
@@ -90,7 +93,7 @@ To pair with the slab serif typeface I chose a more moder font; Montserrat. It's
 <br>
 
 * The Game
-    * The game's questions and anwser choices are dynamically generated from an API. 
+    * The game's questions and anwser choices are dynamically generated from an API. It has a progress bar to go with a fractional question counter, as well as a score counter.
 <br>
 
 ![Game](assets/images/game.JPG)
@@ -144,7 +147,9 @@ The game was also thoroughly and while it functioned very well there was one con
 * CSS
     * No errors occured after auditing every page with the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjigsaw.w3.org%2Fcss-validator%2Fvalidator%3Furi%3Dhttps%253A%252F%252Fgreengraf.github.io%252Fhow-much-do-you-know%252F%26profile%3Dcss3svg%26usermedium%3Dall%26warning%3D1%26vextwarning%3D%26lang%3Den&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 * JS Hint
-    * 
+    * No errors were detected on any of the screens in JS Hint 
+    <br>
+    ![JS Hint](assets/images/jshint.JPG)
 
 
 #### Lighthouse — Dev Tools

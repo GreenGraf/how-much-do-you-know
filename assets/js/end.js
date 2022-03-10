@@ -3,11 +3,10 @@ const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
 finalScore.innerText = mostRecentScore;
+let saveHighScore;
 
 // LOCAL STORAGE FOR SCORES
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
-
-const MAX_HIGH_SCORES = 5;
 
 // ENTER NAME AND SAVE
 username.addEventListener('keyup', () => {
@@ -29,4 +28,4 @@ saveHighScore = e => {
     localStorage.setItem('highScores', JSON.stringify(highScores));
     window.location.assign('index.html');
     
-}
+};
