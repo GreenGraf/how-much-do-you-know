@@ -17,7 +17,7 @@ const MAX_QUESTIONS = 10;
 
 let questions = [];
 
-fetch("https://quizapi.io/api/v1/questions?apiKey=9Si0Eb5bu9YIwFFSwLG3E4Fmo5pkvxSfmATADrph&limit=10&category=Linux&difficulty=hard").then( res => { 
+fetch("https://quizapi.io/api/v1/questions?apiKey=9Si0Eb5bu9YIwFFSwLG3E4Fmo5pkvxSfmATADrph&limit=10&category=Linux&difficulty=easy").then( res => { 
     return res.json();
     })
     .then(loadedQuestions => {
