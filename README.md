@@ -26,35 +26,35 @@ This is an easy quiz designed to test the knowledge of newbie Linux users. Hopef
 
 * As a website visitor I want to:
     * Intuatively know what the website is for.
-    * Easily find more information about the website.
+    * Easily navigate to where I want.
 
-* As a potential customer I want to:
-    * Be convinced that this is a worthwhile place to visit.
-    * Trust the organisation that runs it.
-    * Find out about areas of interest in the park.
-    * Know how I can travel through the park.
+* As a potential challenger I want to:
+    * Understand the rules.
+    * Understand what the quiz is about.
 
 * As someone who is already interested in going here I want to:
-    * Know how to get there.
-    * Get in touch to ask about specific locations.
+    * Start the game quickly.
+    * Check my high scores.
 
 * As a website developer I want to:
-    * Create a website that has an intuative structure.
-    * Make a website that is enjoyable to navigate.
-    * Fulfill the brief from the stakeholder, and exceed expectations. 
+    * Create a minimal quiz experience.
+    * Offer the user intuitive feedback.
+    * create a challengin and fun quiz for novice Linux enthusiasts.
 
 ### Scope
 
 #### What features are planned
-* The website must draw potential visitors with descriptive, warm, and engaging copy.
-* High-quality images are extremely important in any travel website. The park must come across as a "must-see" attraction.
-* Potential visitors must have a way of easilly getting in touch with the park.
-* Visitors should be able to easily find where the park is, and understand the limited office opening hours so as not to expect 24hr customer service (this is a public service)
+* Start page, with instructions.
+* Randomly generated questions from a quiz API.
+* Option to input the user's name at the end of the game so they can store their score locally.
+* A page for locally stored high scores.
+* Users should get instant feedback on choices and results without any confusion.
 #### Structure
 * Three pages:
-    * Home page
-    * A 'Visit' page for Information on areas of interest
-    * Contact page
+    * Title page
+    * Game page
+    * End page 
+    * High scores page
 #### Skeleton 
 <br> 
 
