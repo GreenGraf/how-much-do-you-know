@@ -2,11 +2,11 @@
 
 Multiple choice quiz game for Linux nerds.
 
-Take a Look [add link]
+Take a Look [Here](https://greengraf.github.io/how-much-do-you-know/)
 
 <br>
 
-[resposive pic]
+![Am I Responsive](assets/images/responsive.JPG)
 
 ## Portfolio Project 2
 
@@ -58,24 +58,24 @@ This is an easy quiz designed to test the knowledge of newbie Linux users. Hopef
 #### Skeleton 
 <br> 
 
-![Homepage](assets/wireframes/wireframe.jpg)
+![Homepage](assets/images/home.JPG)
 
 #### Surface
-The idea behind the aesthetic of the website is to convey friendliness, a sense of adventure, and a connection with nature in modern times.
+The idea behind the aesthetic of the game is to elicit a feeling of old-school technology by using carefully chosen font and a minimalist design.
 
 ##### Color Theme
 
-![colortheme](assets/screenshots/color-theme.jpeg)
+![colortheme](assets/images/color-palette.JPG)
 
-* The primary color, #6C7C49, is a soft, warmish green. It's meant to wrap around the site, as if the user is immersed in the park.
-* The secondary color, #E6AF2E, is a bright gold, which is meant to compliment the green and represents the beautiful light that can be experienced in the park but aslo mimics the color of the wild grasses in the autumn and winter.
-* The main font color is #3A3A3A. It's a slate grey as opposed to a black. Pure black is an unnatural color and can be quite disconcerting. The slate grey is easier on the eyes.
-* #FAFAFA is the chosen color for the background of the website. It's softer than pure white so it's easier on the eyes. 
-* Finally, a tertiary color, #AD8424, will be adopted in certain areas to improve accessibility  
+* #FF6900 was going to be the primary color — it's the same color that Code Institute uses — but it didn't feel in harmony with the other colors and with what I wanted to achieve.
+* The primary color, #AF4657, is a pastele red. Red signifies excitement or danger. I want to induce a certain amount of anxiety in the user.
+* The secondary color, #B6BFCB, is a soft grey that's meant to compliment the red.
+* The main font color is #F3F8F3. Is a warm white that's meant to improve the accessibility of some text and the buttons.
+* #211E24 is the chosen color for the background of the website. I wanted a dark theme to induce a sense of mystery and as a nod to old-school terminals. I chose a warm black as opposed to pure black to ease the strain on the user's eyes. 
 
 ##### Typography
 
-The site will have a serif font, called Source Serif Pro, for titles and headings. It is a font that is similar to Courier but has a slightly friendlier curvature to it. It's a nod to the style employed by North American national parks — hence, representing 'Adventure.'  
+I decided to go with Courier 
 
 To pair with the serif font, the site will use a more modern looking sans-serif font for paragraphs. Montserrat is the chosen font here. 
 
