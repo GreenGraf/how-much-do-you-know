@@ -87,7 +87,6 @@ getNewQuestion = function () {
                     <p class="choice-prefix">${numToAlpha[questionNumber]}</p>
                     <p class="choice-text" data-value="answer_${numToAlpha[questionNumber].toLowerCase()}">${newAnswer}</p>
                 </div>
-
                 `;
             document.getElementById('choices-wrapper').innerHTML += newChoice;
             questionNumber++;
