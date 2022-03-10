@@ -65,6 +65,7 @@ p {
 #home-btns {
     text-align: center;
     justify-content: space-between;
+    margin-bottom: 5rem;
 }
 
 .btn:hover{
