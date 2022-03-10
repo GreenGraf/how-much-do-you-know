@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Congratulations!</title>
-    <!--Link to CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <div class="container">
-        <div id="end" class="flex-center flex-column">
-            <h1 id="finalScore"></h1>
-            <form>
-              <input
-                type="text"
-                name="username"
-                id="username"
-                placeholder="Leave Your Mark"
-              />
-              <button
-                type="submit"
-                class="btn"
-                id="saveScoreBtn"
-                onclick="saveHighScore(event)"
-                disabled
-              >
-                Save
-              </button>
-            </form>
-            <a class="btn" href="/game.html">Play Again</a>
-            <a class="btn" href="/">Go Home</a>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Congratulations!</title>
+      <!--Link to CSS-->
+      <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+      <div class="container">
+          <div id="end" class="flex-center flex-column">
+              <h1 id="finalScore"></h1>
+              <form>
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  placeholder="Leave Your Mark"
+                />
+                <button
+                  type="submit"
+                  class="btn"
+                  id="saveScoreBtn"
+                  onclick="saveHighScore(event)"
+                  disabled
+                >
+                  Save
+                </button>
+              </form>
+              <a class="btn" href="/game.html">Play Again</a>
+              <a class="btn" href="/">Go Home</a>
+          </div>
+      </div>
+      <footer>
+        <div class="footer-container">
+            <p>Built by Michael O'Leary</p>
+            <ul class="footer-socials">
+                <li><a href="https://github.com/GreenGraf" target="_blank"><i class="fab fa-github-square"></i></li>
+                <li><a href="https://www.linkedin.com/in/mike-o-leary-photography/" target="_blank"><i class="fab fa-linkedin"></i></li>
+            </ul>
         </div>
-    </div>
+    </footer>
+    <!--Font Awesome Script  -->
+    <script src="https://kit.fontawesome.com/71f86bdac8.js" crossorigin="anonymous"></script>
     <!--Script Tag-->
     <script src="assets/js/end.js"></script> 
-</body>
+  </body>
 </html>
