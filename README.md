@@ -143,22 +143,20 @@ The game was also thoroughly and while it functioned very well there was one con
     * No errors occured after auditing every page with the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgreengraf.github.io%2Fhow-much-do-you-know%2Findex.html)
 * CSS
     * No errors occured after auditing every page with the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjigsaw.w3.org%2Fcss-validator%2Fvalidator%3Furi%3Dhttps%253A%252F%252Fgreengraf.github.io%252Fhow-much-do-you-know%252F%26profile%3Dcss3svg%26usermedium%3Dall%26warning%3D1%26vextwarning%3D%26lang%3Den&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* JS Hint
+    * 
+
 
 #### Lighthouse — Dev Tools
 
 * I used Lighthouse to test my sites accessability and it received a very good score on desktop and mobile.
 
-![Desktop](assets/images/home.JPG) 
+![Desktop](assets/images/home-lighthouse.JPG) 
 
 * Accessibility and performance on all screens and devices was very good.
 
 ![Mobile](assets/images/mobile-accessibility.JPG) 
-
- #### WAVE
-
- * I also tested the site with [WAVE](https://wave.webaim.org/) and found some accessibility alerts which I easilly fixed.
-
-![WAVE](assets/screenshots/wave.JPG)   
+ 
 
 ## Deployment
 
@@ -167,7 +165,7 @@ The game was also thoroughly and while it functioned very well there was one con
     * From the source section drop-down menu, select the Master Branch
     * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-There is a link to the live site at the begining of this README.md but for convienience I'll paste the full link here: https://greengraf.github.io/killarney-national-park/
+There is a link to the live site at the begining of this README.md but for convienience I'll paste the full link here: https://greengraf.github.io/how-much-do-you-know/index.html
 
 ## Clone and Fork
 
@@ -193,26 +191,16 @@ I like to say a massive "Thank You" to my mentor, Ben Kavanagh. He's a fantastic
 
 ### Code
 
-* HTML and CSS tips from [Mozilla](https://developer.mozilla.org) developer documentation.
-* HTML and CSS tips from [CSS Tricks](https://css-tricks.com/).
-* HTML and CSS tips from [Stack Overflow](https://stackoverflow.com/).
+* HTML, CSS and JavaScript tips from [Mozilla](https://developer.mozilla.org) developer documentation.
+* HTML, CSS and JavaScript [Stack Overflow](https://stackoverflow.com/).
 * HTML and CSS tips from [W3Schools](https://www.w3schools.com/).
 
 ### Content
 
+* The core JavaScript was adopted from James Quick's tutorial on Udemy [Quiz App Tutorial](https://www.udemy.com/course/build-a-quiz-app-with-html-css-and-javascript/).
+* The API for the quiz was taken from [Quiz API](https://quizapi.io/)
 * The icons used in the footer are from [Font Awesome](https://fontawesome.com/)
-* The favicon was generated using [Favicon.io](https://favicon.io/favicon-generator/)
-* The hamburger menu was created originally by https://dev.to/ljcdev/hamburger-css-no-js-2dfa
-* The navbar styles were helped by this YouTube video: https://www.youtube.com/watch?v=W-nIX17Gg-Q&t=97s&ab_channel=AngelaDelise
-* The code for the block quote was taken from here: https://codepen.io/cliftwalker/pen/XJaEXY
-* This post on Stack Overflow helped me with responsiveness: https://stackoverflow.com/questions/61150660/how-to-make-image-responsive-in-flexbox-with-set-width
-* My inspiration for the footer came from this design: https://www.awwwards.com/inspiration/niarra-travel-footer
 
-### Media
-
-* The photos of the bike were the kayak were downloaded from [Pexels](https://www.pexels.com/) from [Daniel Frank](https://www.pexels.com/@fr3nks?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) and [Lisa Fotios](https://www.pexels.com/@fotios-photos?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) respectively
-* The image of the boat was taken from here: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.viator.com%2Fen-IE%2Ftours%2FKillarney%2FBOAT-ON-LAKES-OF-KILLARNEY-AND-NATIONAL-PARK%2Fd911-3544P7&psig=AOvVaw1iZN_W6uHkQmhLBgvlhkD4&ust=1642785295412000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKjUk6nqwPUCFQAAAAAdAAAAABAI
-* All other images used are my own.
 
 
 

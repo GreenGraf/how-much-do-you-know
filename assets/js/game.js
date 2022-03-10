@@ -12,6 +12,9 @@ let questionCounter = 0;
 let availableQuestions = [];
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
+let startGame;
+let getNewQuestion;
+let incrementScore;
 
 // FETCH QUESTIONS FROM JSON FILE
 
