@@ -156,11 +156,11 @@ The game was also thoroughly and while it functioned very well there was one con
 
 * I used Lighthouse to test my sites accessability and it received a very good score on desktop and mobile.
 
-![Desktop](assets/images/home-lighthouse.JPG) 
+![Desktop](assets/images/access-desktop.JPG) 
 
 * Accessibility and performance on all screens and devices was very good.
 
-![Mobile](assets/images/mobile-accessibility.JPG) 
+![Mobile](assets/images/access-mobile.JPG) 
 
 #### WAVE
 
