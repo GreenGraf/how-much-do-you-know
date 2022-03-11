@@ -209,6 +209,7 @@ I would like to say a massive "Thank You" to my mentor, Ben Kavanagh. He's a fan
 * HTML, CSS and JavaScript [Stack Overflow](https://stackoverflow.com/).
 * HTML and CSS tips from [W3Schools](https://www.w3schools.com/).
 * JavaScript inspiration from numerous YouTube creators including [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw), [DevEd](https://www.youtube.com/c/DevEd/featured) and [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
+* I learned more JavaScript from a paid course on Udemy by [Colt Steele](https://www.udemy.com/course/the-web-developer-bootcamp/) 
 
 ### Content
 
