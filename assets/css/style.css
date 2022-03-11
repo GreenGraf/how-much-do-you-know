@@ -83,6 +83,12 @@ p {
     width: 12rem;
 }
 
+/* hide text for screen reader icons */
+
+.hide-link{
+    display: none;
+}
+
 /* FORMS */
 
 form {
