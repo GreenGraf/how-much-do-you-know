@@ -161,7 +161,12 @@ The game was also thoroughly and while it functioned very well there was one con
 * Accessibility and performance on all screens and devices was very good.
 
 ![Mobile](assets/images/mobile-accessibility.JPG) 
- 
+
+#### WAVE
+
+* I also used WAVE to assess the site's accessibility.
+
+![WAVE](assets/images/WAVE.JPG) 
 
 ## Deployment
 
@@ -171,6 +176,10 @@ The game was also thoroughly and while it functioned very well there was one con
     * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 There is a link to the live site at the begining of this README.md but for convienience I'll paste the full link here: https://greengraf.github.io/how-much-do-you-know/index.html
+
+## Issues I encountered building the game
+
+I had huge issues with parsing the correct answer and populating the the answer choices dynamically. 
 
 ## Clone and Fork
 

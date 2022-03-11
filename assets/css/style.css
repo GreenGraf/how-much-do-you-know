@@ -45,7 +45,7 @@ p {
     margin: 0 auto;
 }
 
-/* buttons */
+/* BUTTONS */
 
 .btn {
     font-size: 2rem;
@@ -110,6 +110,8 @@ input {
   input::placeholder {
     color: #b6bfcb;
   }
+
+/* FOOTER STYLES */
 
   .footer {
 	position: absolute;

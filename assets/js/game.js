@@ -34,8 +34,6 @@ fetch("https://quizapi.io/api/v1/questions?apiKey=9Si0Eb5bu9YIwFFSwLG3E4Fmo5pkvx
     console.error(err);
 });
 
-//CONSTANTS
-
 startGame = () => {
 
     questionCounter = 0;
@@ -75,8 +73,6 @@ getNewQuestion = function () {
     let questionNumber = 1;
 
     // Generate New Questions
-
-    console.log(currentQuestion);
 
     for (let answer_key in currentQuestion.answers) {
 
@@ -121,8 +117,6 @@ getNewQuestion = function () {
 
             const selectedChoice = e.target;
             const selectedAnswer = selectedChoice.dataset.value;
-
-            console.log(selectedChoice);
 
             let classToApply;
 
