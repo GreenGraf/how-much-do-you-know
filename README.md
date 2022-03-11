@@ -51,7 +51,7 @@ This is an easy quiz designed to test the knowledge of newbie Linux users. Hopef
 * Score counter.
 * Option to input the user's name at the end of the game so they can store their score locally.
 * A page for locally stored high scores.
-* Users should get instant feedback on choices and results without any confusion.
+* Users should get instant feedback on choices and results without any confusion - red for wrong answers and green for correct answers.
 #### Structure
 * Three pages:
     * Title page
@@ -179,7 +179,7 @@ There is a link to the live site at the begining of this README.md but for convi
 
 ## Issues I encountered building the game
 
-I had huge issues with parsing the correct answer and populating the the answer choices dynamically. 
+I had huge issues with parsing the correct answer and populating the the answer choices dynamically. I used YouTube, Stack Overflow, and GitHub to try to figure this out. I managed to cobble together something which worked. Early on I realised that I needed to use template literals to generate the li's, but actually getting it to work the way I wanted took a lot of itterating.
 
 ## Clone and Fork
 
@@ -201,13 +201,14 @@ I had huge issues with parsing the correct answer and populating the the answer 
 
 ## Credits
 
-I like to say a massive "Thank You" to my mentor, Ben Kavanagh. He's a fantastic motivator and extremely helpful. Also a big thanks to all the helpful people in the Slack community!
+I would like to say a massive "Thank You" to my mentor, Ben Kavanagh. He's a fantastic motivator and extremely helpful. Also a big thanks to all the helpful people in the Slack community!
 
 ### Code
 
 * HTML, CSS and JavaScript tips from [Mozilla](https://developer.mozilla.org) developer documentation.
 * HTML, CSS and JavaScript [Stack Overflow](https://stackoverflow.com/).
 * HTML and CSS tips from [W3Schools](https://www.w3schools.com/).
+* JavaScript inspiration from numerous YouTube creators including [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw), [DevEd](https://www.youtube.com/c/DevEd/featured) and [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
 
 ### Content
 
